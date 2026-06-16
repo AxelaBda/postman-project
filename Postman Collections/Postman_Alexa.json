@@ -113,6 +113,19 @@
 				"url": "Test 2"
 			},
 			"response": []
+		},
+		{
+			"name": "My API Tests",
+			"id": "d233850b-1fe5-434a-8712-eaaa03d9ae28",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "My API Tests"
+			},
+			"response": []
 		}
 	]
 }
