@@ -100,6 +100,19 @@
 				"url": "Test 2"
 			},
 			"response": []
+		},
+		{
+			"name": "Test echo",
+			"id": "23417d80-aaf1-4d24-af1a-9fd7616eddd5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "Test 2"
+			},
+			"response": []
 		}
 	]
 }
