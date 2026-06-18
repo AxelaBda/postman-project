@@ -126,6 +126,28 @@
 				"url": "My API Tests"
 			},
 			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/jobs/4/assignments",
+			"id": "12bfa5aa-3834-4536-95fc-1921b2b328ab",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n  \"technicianId\": 6\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/jobs/4/assignments"
+			},
+			"response": []
 		}
 	]
 }
