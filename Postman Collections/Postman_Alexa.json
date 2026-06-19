@@ -148,6 +148,40 @@
 				"url": "http://localhost:3000/api/jobs/4/assignments"
 			},
 			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/jobs",
+			"id": "3e2057db-a943-4c06-ae76-76f9c46d6718",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/jobs?status=IN_PROGRESS&priority=URGENT",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"jobs"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "IN_PROGRESS"
+						},
+						{
+							"key": "priority",
+							"value": "URGENT"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
