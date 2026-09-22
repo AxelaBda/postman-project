@@ -182,6 +182,16 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "ef88ce4c-ca8f-44aa-b9f5-28cb2a2dace8",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": ""
+			},
+			"response": []
 		}
 	]
 }
